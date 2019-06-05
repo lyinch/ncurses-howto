@@ -6,3 +6,4 @@ set(CMAKE_EXE_LINKER_FLAGS "-lncurses")
 
 add_executable(hello_world hello_world.cpp)
 add_executable(initialization initialization.cpp)
+add_executable(io io.cpp)
