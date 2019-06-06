@@ -20,6 +20,7 @@ int main(int argc, char *argv[]) {
     initscr(); /* comment to highlight */
     raw();
     noecho();
+    keypad(stdscr,TRUE);
     getmaxyx(stdscr,row,col);
     while((ch = fgetc(fp)) != EOF){
         getyx(stdscr,y,x); //get current cursor position
